@@ -7,7 +7,7 @@ public class RadioTest {
 
     @Test
     public void shouldSetVolume() {
-        Radio radio = new Radio();
+        Radio radio = new Radio(10);
 
 
         int expected = 50;
