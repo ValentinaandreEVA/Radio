@@ -49,7 +49,7 @@ public class Radio {
 
     public void setCurrentStation(int newCurrentStation) {
         if (newCurrentStation > stationCount - 1) {
-            currentStation = 9;
+            currentStation = stationCount - 1;
         } else if (newCurrentStation < 0) {
             currentStation = 0;
         } else {
