@@ -71,7 +71,7 @@ public class Radio {
         if (currentStation > 0) {
             currentStation--;
         } else {
-            currentStation = 9;
+            currentStation = currentStation - 1;
         }
     }
 
